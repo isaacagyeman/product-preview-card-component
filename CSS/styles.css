@@ -1,0 +1,120 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Light.ttf);
+}
+@font-face {
+    font-family: Fraunces;
+    src: url(/fonts/Fraunces_28pt-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: hsl(38, 29%, 89%);
+}
+.perfume-root{
+    border: solid;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 8% ;
+    width: 45%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 13.5px;
+    border-bottom-left-radius: 13.5px;
+    background-color:white;
+}
+.content{
+    width: 50%;
+    padding: 2.5em;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.heading-text{
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+}
+.heading-text p{
+    display: block;
+    font-family: Fraunces;
+    font-size: 20pt;
+    border-spacing: 5px;
+}
+.subheading p{
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    font-family: Montserrat;
+    font-size: .75em;
+    
+}
+.subheading{
+    word-wrap: normal;
+    width: 88%;
+}
+#topmost-text{
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    font-size: 11pt;
+    font-weight: 200;
+}
+img{
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+p{
+    display: inline;
+    font-size: 14pt;
+}
+.prices{
+    display: block;
+    padding: 1.25em;                      
+    word-spacing: .625em;
+}
+.prices #new-price{
+    color: green;
+    font-family: Fraunces;
+    font-size: 18pt;
+}
+.prices #old-price{
+    font-family: Montserrat;
+}
+.btn{
+    width: 100%;
+    display: inline;
+    background-color: rgb(72, 128, 72);
+    padding: .9375em 3.125em;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.btn img{
+    width: 24px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.btn p{
+    color: white;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(21, 102, 21);
+
+}
+.attribution{
+    text-align: center;
+    font-size: 11px;
+}
+
+@media only screen and (max-width: 768px) {
+   .perfume-root{
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 90%;
+   }
+
+}
