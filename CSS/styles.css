@@ -18,7 +18,7 @@ body{
     font-weight: 500;
 }
 .perfume-root{
-    border: solid;
+    /* border: solid; */
     display: flex;
     margin: 0 auto;
     margin-top: 8%;
@@ -106,7 +106,7 @@ body{
     font-size: .8rem;
     margin-top: .5em;
 }
-
+/* Media query for mobile and smaller screens */
 @media only screen and (max-width: 500px) {
 .perfume-root{
 display: block;
@@ -132,4 +132,10 @@ margin-left: 1em;
 padding-top: 1em;
 }
 
+}
+/* Media query for tablet screens */
+@media only screen and (min-width: 510px){
+.perfume-root{
+width: 85%
+}
 }
