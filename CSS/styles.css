@@ -14,19 +14,14 @@
 }
 body{
     background-color: hsl(38, 29%, 89%);
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-
+    font-size: .896rem;
+    font-weight: 500;
 }
 .perfume-root{
     border: solid;
     display: flex;
     margin: 0 auto;
-    /* margin-top: 8%; */
+    margin-top: 8%;
     width: 45%;
     max-width: 600px;
     border-top-right-radius: 10px;
@@ -48,14 +43,14 @@ body{
 .heading-text p{
     display: block;
     font-family: Fraunces;
-    font-size: 1.3rem;
-    border-spacing: 5px;
+    font-size: 1.79rem;
+    /* border-spacing: 5px; */
 }
 .subheading p{
     padding-top: 1.25em;
     padding-bottom: 1.25em;
     font-family: Montserrat;
-    font-size: .85em;
+    font-weight: 400;
     
 }
 
@@ -65,7 +60,7 @@ body{
     font-size: 1rem;
     font-weight: 200;
 }
-img{
+#image{
     width: 50%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -115,8 +110,26 @@ img{
 @media only screen and (max-width: 500px) {
 .perfume-root{
 display: block;
-width: 90%
+width: 90%;
+margin-top: 1em
 }
-
+#image{
+content: url('/images/image-product-mobile.jpg');
+width: 100%;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 0px;
+}
+.content{
+width: 100%
+}
+.prices{
+display: flex;
+}
+.prices span{
+margin-left: 1em;
+}
+.subheading p{
+padding-top: 1em;
+}
 
 }
