@@ -14,13 +14,21 @@
 }
 body{
     background-color: hsl(38, 29%, 89%);
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 .perfume-root{
     border: solid;
     display: flex;
     margin: 0 auto;
-    margin-top: 8% ;
+    /* margin-top: 8%; */
     width: 45%;
+    max-width: 600px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-top-left-radius: 13.5px;
@@ -40,24 +48,21 @@ body{
 .heading-text p{
     display: block;
     font-family: Fraunces;
-    font-size: 20pt;
+    font-size: 1.3rem;
     border-spacing: 5px;
 }
 .subheading p{
     padding-top: 1.25em;
     padding-bottom: 1.25em;
     font-family: Montserrat;
-    font-size: .75em;
+    font-size: .85em;
     
 }
-.subheading{
-    word-wrap: normal;
-    width: 88%;
-}
+
 #topmost-text{
     font-family: Montserrat;
     letter-spacing: 5px;
-    font-size: 11pt;
+    font-size: 1rem;
     font-weight: 200;
 }
 img{
@@ -65,10 +70,7 @@ img{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
-p{
-    display: inline;
-    font-size: 14pt;
-}
+
 .prices{
     display: block;
     padding: 1.25em;                      
@@ -77,28 +79,28 @@ p{
 .prices #new-price{
     color: green;
     font-family: Fraunces;
-    font-size: 18pt;
+    font-size: 1.35rem;
 }
 .prices #old-price{
     font-family: Montserrat;
 }
 .btn{
     width: 100%;
-    display: inline;
+    display: flex;
     background-color: rgb(72, 128, 72);
-    padding: .9375em 3.125em;
+    padding: 1em  1.1em;
     border-radius: 10px;
     transition: background 0.5s;
-}
-.btn img{
-    width: 24px;
-    margin-top: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-}
-.btn p{
+    justify-content: center;
     color: white;
+    
 }
+
+.btn img{
+    width: 1.3em;
+    margin-right: 1em;
+}
+
 .btn:hover{
     cursor: pointer;
     background-color: rgb(21, 102, 21);
@@ -106,15 +108,15 @@ p{
 }
 .attribution{
     text-align: center;
-    font-size: 11px;
+    font-size: .8rem;
+    margin-top: .5em;
 }
 
-@media only screen and (max-width: 768px) {
-   .perfume-root{
-    flex-direction: column;
-    margin: 0 auto;
-    margin-top: 10%;
-    width: 90%;
-   }
+@media only screen and (max-width: 500px) {
+.perfume-root{
+display: block;
+width: 90%
+}
+
 
 }
