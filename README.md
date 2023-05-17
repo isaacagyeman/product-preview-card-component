@@ -14,6 +14,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 
 ## Overview
+This is the first challenge I chose to solve from the frontend mentor website.
 
 ### The challenge
 
@@ -23,7 +24,7 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-
+![](/Screenshot%202023-05-16%20at%2023-41-44%20Frontend%20Mentor%20Product%20preview%20card%20component.png)
 
 
 ### Links
@@ -44,7 +45,7 @@ Users should be able to:
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@isaacagyeman](https://www.frontendmentor.io/profile/isaacagyeman)
+- Twitter - [@isaacagyeman17](https://www.twitter.com/isaacagyeman17)
 
 
